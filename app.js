@@ -1,4 +1,4 @@
-console.log("Node.js lab started successfully");
+/*console.log("Node.js lab started successfully");
 const fs = require('fs');
 
 //read - file
@@ -39,3 +39,8 @@ https.get('https://jsonplaceholder.typicode.com/posts/1', (resp) => {
 }).on("error", (err) => {
   console.log("Error: " + err.message);
 });
+*/
+//module usage
+
+const myModule = require('./my-module');
+console.log(myModule.myFunction());
