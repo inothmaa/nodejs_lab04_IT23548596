@@ -52,6 +52,17 @@ const myPromise = new Promise((resolve, reject) => {
 
 myPromise.then(console.log).catch(console.log);
 
+//Async/await
+async function myFunction() {
+  try {
+    const result = await Promise.resolve("Success!");
+    console.log(result);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+myFunction();
 
 
 
